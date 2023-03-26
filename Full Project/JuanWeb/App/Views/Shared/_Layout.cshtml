@@ -9,6 +9,9 @@
 }
 
 <!DOCTYPE html>
+
+
+
 <html class="no-js" lang="zxx">
 <head>
     <meta charset="utf-8">
@@ -81,15 +84,15 @@
                                     <nav class="desktop-menu">
                                         <ul>
                                             <li class="active">
-                                                <a href="index.html">Home <i class="fa fa-angle-down"></i></a>
+                                                <a asp-action="index" asp-controller="home">Home <i class="fa fa-angle-down"></i></a>
                                             </li>
                                             <li>
-                                                <a href="shop.html">shop <i class="fa fa-angle-down"></i></a>
+                                                <a asp-action="index" asp-controller="product">shop <i class="fa fa-angle-down"></i></a>
                                             </li>
                                             <li>
-                                                <a href="blog-left-sidebar.html">Blog <i class="fa fa-angle-down"></i></a>
+                                                <a asp-action="index" asp-controller="blog">Blog <i class="fa fa-angle-down"></i></a>
                                             </li>
-                                            <li><a href="contact-us.html">Contact us</a></li>
+                                            <li><a asp-action="index" asp-controller="contact">Contact us</a></li>
                                         </ul>
                                     </nav>
                                 </div>
@@ -176,7 +179,7 @@
                     <nav>
                         <ul class="mobile-menu">
                             <li class="menu-item-has-children">
-                                <a href="index.html">Home</a>
+                                <a asp-action="index" asp-controller="home">Home</a>
                             </li>
                             <li class="menu-item-has-children">
                                 <a href="#">pages</a>
@@ -185,7 +188,7 @@
                                         <a href="#">column 01</a>
                                         <ul class="dropdown">
                                             <li>
-                                                <a href="shop.html">
+                                                <a asp-action="index" asp-controller="product">
                                                     shop grid left
                                                     sidebar
                                                 </a>
@@ -237,7 +240,7 @@
                                 </ul>
                             </li>
                             <li class="menu-item-has-children ">
-                                <a href="#">shop</a>
+                                <a asp-action="index" asp-controller="product">shop</a>
                                 <ul class="dropdown">
                                     <li class="menu-item-has-children">
                                         <a href="#">shop grid layout</a>
@@ -268,7 +271,7 @@
                                 </ul>
                             </li>
                             <li class="menu-item-has-children ">
-                                <a href="#">Blog</a>
+                                <a asp-action="index" asp-controller="blog">Blog</a>
                                 <ul class="dropdown">
                                     <li><a href="blog-left-sidebar.html">blog left sidebar</a></li>
                                     <li><a href="blog-right-sidebar.html">blog right sidebar</a></li>
@@ -279,7 +282,7 @@
                                     <li><a href="blog-details-left-sidebar.html">blog details left sidebar</a></li>
                                 </ul>
                             </li>
-                            <li><a href="contact-us.html">Contact us</a></li>
+                            <li><a asp-action="index" asp-controller="contact">Contact us</a></li>
                         </ul>
                     </nav>
                     <!-- mobile menu navigation end -->
@@ -307,9 +310,9 @@
                                     <i class="fa fa-angle-down"></i>
                                 </a>
                                 <div class="dropdown-menu" aria-labelledby="myaccount">
-                                    <a class="dropdown-item" href="my-account.html">my account</a>
-                                    <a class="dropdown-item" href="login-register.html"> login</a>
-                                    <a class="dropdown-item" href="login-register.html">register</a>
+                                    <a class="dropdown-item" asp-action="profile" asp-controller="account">my account</a>
+                                    <a class="dropdown-item" asp-action="login" asp-controller="account"> login</a>
+                                    <a class="dropdown-item" asp-action="register" asp-controller="account">register</a>
                                 </div>
                             </div>
                         </li>
@@ -458,9 +461,8 @@
                             <h5 class="widget-title">Information</h5>
                             <div class="widget-body">
                                 <ul class="useful-link">
-                                    <li><a href="#">Home</a></li>
-                                    <li><a href="#">About Us</a></li>
-                                    <li><a href="#">Contact Us</a></li>
+                                    <li><a  asp-action="index" asp-controller="home">Home</a></li>
+                                    <li><a asp-action="index" asp-controller="contact">Contact Us</a></li>
                                     <li><a href="#">Returns & Exchanges</a></li>
                                     <li><a href="#">Shipping & Delivery</a></li>
                                     <li><a href="#">Privacy Policy</a></li>
@@ -475,12 +477,9 @@
                             <h5 class="widget-title">Quick Links</h5>
                             <div class="widget-body">
                                 <ul class="useful-link">
-                                    <li><a href="#">Store Location</a></li>
-                                    <li><a href="#">My Account</a></li>
-                                    <li><a href="#">Orders Tracking</a></li>
-                                    <li><a href="#">Size Guide</a></li>
+                                    <li><a asp-action="profile" asp-controller="account">My Account</a></li>
                                     <li><a href="#">Shopping Rates</a></li>
-                                    <li><a href="#">Contact Us</a></li>
+                                    <li><a asp-action="index" asp-controller="contact">Contact Us</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -496,7 +495,7 @@
                 <div class="row">
                     <div class="col-md-6 order-2 order-md-1">
                         <div class="copyright-text text-center text-md-left">
-                            <p>Copyright 2019 <a href="index.html">Juan</a>. All Rights Reserved</p>
+                            <p>Copyright 2019 <a asp-action="index" asp-controller="home">Juan</a>. All Rights Reserved</p>
                         </div>
                     </div>
                     <div class="col-md-6 order-1 order-md-2">

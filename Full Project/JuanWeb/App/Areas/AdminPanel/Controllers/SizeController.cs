@@ -6,7 +6,7 @@ using Microsoft.AspNetCore.Mvc;
 namespace App.Areas.AdminPanel.Controllers
 {
     [Area("AdminPanel")]
-    [Authorize("Admin")]
+    [Authorize(Roles = "Admin")]
 
     public class SizeController : Controller
     {

@@ -4,7 +4,6 @@ using Microsoft.AspNetCore.Authorization;
 namespace App.Areas.AdminPanel.Controllers
 {
     [Area("AdminPanel")]
-    [Authorize("Admin")]
 
     public class ErrorController : Controller
     {

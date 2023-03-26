@@ -10,7 +10,8 @@ using System.Reflection.Metadata;
 namespace App.Areas.AdminPanel.Controllers
 {
     [Area("Adminpanel")]
-    [Authorize("Admin")]
+    [Authorize(Roles = "Admin")]
+
 
     public class BlogController : Controller
     {

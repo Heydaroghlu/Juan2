@@ -94,3 +94,15 @@ C:\Users\Isa\Desktop\sonJuan\JuanShoes\Full Project\JuanWeb\Core\obj\Debug\net7.
 C:\Users\Isa\Desktop\sonJuan\JuanShoes\Full Project\JuanWeb\Core\obj\Debug\net7.0\refint\Core.dll
 C:\Users\Isa\Desktop\sonJuan\JuanShoes\Full Project\JuanWeb\Core\obj\Debug\net7.0\Core.pdb
 C:\Users\Isa\Desktop\sonJuan\JuanShoes\Full Project\JuanWeb\Core\obj\Debug\net7.0\ref\Core.dll
+C:\Users\Isa\Desktop\Juan2\Full Project\JuanWeb\Core\bin\Debug\net7.0\Core.deps.json
+C:\Users\Isa\Desktop\Juan2\Full Project\JuanWeb\Core\bin\Debug\net7.0\Core.dll
+C:\Users\Isa\Desktop\Juan2\Full Project\JuanWeb\Core\bin\Debug\net7.0\Core.pdb
+C:\Users\Isa\Desktop\Juan2\Full Project\JuanWeb\Core\obj\Debug\net7.0\Core.csproj.AssemblyReference.cache
+C:\Users\Isa\Desktop\Juan2\Full Project\JuanWeb\Core\obj\Debug\net7.0\Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Isa\Desktop\Juan2\Full Project\JuanWeb\Core\obj\Debug\net7.0\Core.AssemblyInfoInputs.cache
+C:\Users\Isa\Desktop\Juan2\Full Project\JuanWeb\Core\obj\Debug\net7.0\Core.AssemblyInfo.cs
+C:\Users\Isa\Desktop\Juan2\Full Project\JuanWeb\Core\obj\Debug\net7.0\Core.csproj.CoreCompileInputs.cache
+C:\Users\Isa\Desktop\Juan2\Full Project\JuanWeb\Core\obj\Debug\net7.0\Core.dll
+C:\Users\Isa\Desktop\Juan2\Full Project\JuanWeb\Core\obj\Debug\net7.0\refint\Core.dll
+C:\Users\Isa\Desktop\Juan2\Full Project\JuanWeb\Core\obj\Debug\net7.0\Core.pdb
+C:\Users\Isa\Desktop\Juan2\Full Project\JuanWeb\Core\obj\Debug\net7.0\ref\Core.dll

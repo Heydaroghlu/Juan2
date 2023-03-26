@@ -9,7 +9,7 @@ using Microsoft.EntityFrameworkCore;
 namespace App.Areas.AdminPanel.Controllers
 {
     [Area("AdminPanel")]
-    [Authorize("Admin")]
+    [Authorize(Roles = "Admin")]
 
     public class OrderController : Controller
     {

@@ -10,7 +10,7 @@ using Service.Services.Interfaces;
 namespace App.Areas.AdminPanel.Controllers
 {
     [Area("AdminPanel")]
-    [Authorize("Admin")]
+    [Authorize(Roles ="Admin")]
     public class AdminController : Controller
     {
         //***Serviceler işləmək üçün hazir deyil***

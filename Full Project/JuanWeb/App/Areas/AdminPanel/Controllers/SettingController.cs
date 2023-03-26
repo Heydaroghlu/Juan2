@@ -8,7 +8,7 @@ using Service.HelperServices.Interfaces;
 namespace App.Areas.AdminPanel.Controllers
 {
     [Area("Adminpanel")]
-    [Authorize("Admin")]
+    [Authorize(Roles = "Admin")]
 
     public class SettingController : Controller
     {

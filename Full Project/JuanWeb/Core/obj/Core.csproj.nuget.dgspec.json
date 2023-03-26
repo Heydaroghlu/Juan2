@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Isa\\Desktop\\sonJuan\\JuanShoes\\Full Project\\JuanWeb\\Core\\Core.csproj": {}
+    "C:\\Users\\Isa\\Desktop\\Juan2\\Full Project\\JuanWeb\\Core\\Core.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Isa\\Desktop\\sonJuan\\JuanShoes\\Full Project\\JuanWeb\\Core\\Core.csproj": {
+    "C:\\Users\\Isa\\Desktop\\Juan2\\Full Project\\JuanWeb\\Core\\Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Isa\\Desktop\\sonJuan\\JuanShoes\\Full Project\\JuanWeb\\Core\\Core.csproj",
+        "projectUniqueName": "C:\\Users\\Isa\\Desktop\\Juan2\\Full Project\\JuanWeb\\Core\\Core.csproj",
         "projectName": "Core",
-        "projectPath": "C:\\Users\\Isa\\Desktop\\sonJuan\\JuanShoes\\Full Project\\JuanWeb\\Core\\Core.csproj",
+        "projectPath": "C:\\Users\\Isa\\Desktop\\Juan2\\Full Project\\JuanWeb\\Core\\Core.csproj",
         "packagesPath": "C:\\Users\\Isa\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Isa\\Desktop\\sonJuan\\JuanShoes\\Full Project\\JuanWeb\\Core\\obj\\",
+        "outputPath": "C:\\Users\\Isa\\Desktop\\Juan2\\Full Project\\JuanWeb\\Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Isa\\AppData\\Roaming\\NuGet\\NuGet.Config",

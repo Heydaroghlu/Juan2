@@ -9,7 +9,7 @@ using System.Drawing.Drawing2D;
 namespace App.Areas.AdminPanel.Controllers
 {
     [Area("AdminPanel")]
-    [Authorize("Admin")]
+    [Authorize(Roles = "Admin")]
 
     public class BrandController : Controller
     {

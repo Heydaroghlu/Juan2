@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "knrXrL/TqO2fSIHr4A8cgsm9ElZtz5xNM77WtnuMR2y5jnPXlnBY5RCyKNMn+0cNAp2dxs8HsEqhlwpQorl+4g==",
+  "dgSpecHash": "UqmHl81ApCmHp3nt2MxjOll2rE8eInoL720ZApDYSMEDG+01gXABjQRB46RiPT2MhO01xd15CtY03ZZdTFXWNg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Isa\\Desktop\\sonJuan\\JuanShoes\\Full Project\\JuanWeb\\App\\App.csproj",
+  "projectFilePath": "C:\\Users\\Isa\\Desktop\\Juan2\\Full Project\\JuanWeb\\App\\App.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Isa\\.nuget\\packages\\automapper\\12.0.0\\automapper.12.0.0.nupkg.sha512",
     "C:\\Users\\Isa\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.0\\automapper.extensions.microsoft.dependencyinjection.12.0.0.nupkg.sha512",
